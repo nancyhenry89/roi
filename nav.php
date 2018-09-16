@@ -5,10 +5,10 @@
     </div>
     <ul>
         <li>
-            <a href="#">home</a>
+            <a class="active" href="#" content="home">Home</a>
         </li>
         <li>
-            <a href="#">Affiliates</a>
+            <a href="#" content="affiliates">Affiliates</a>
         </li>
         <li>
             <a href="#">Advertisers</a> 

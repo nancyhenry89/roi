@@ -1,4 +1,4 @@
-<div class="fluid-container" id="home">
+<div class="fluid-container page" data="home" id="home">
     <div class="container content">
         <h2 class="slogan">
             <div>Relationships</div>

@@ -18,6 +18,6 @@
         </li>
     </ul>
     <div id="contactUs">
-        <span class="icon"><img src="assets/imgs/mail.png"/></span>
+        <span class="icon" content="contact"><img src="assets/imgs/mail.png"/></span>
     </div>
 </nav>

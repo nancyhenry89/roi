@@ -1,7 +1,8 @@
-:root{--color1:#33cc66;--color2:#2f3538;--color3:#fff;--hover-color:#FFA000;--headings-color:#4f5d75;--main-font:'Montserrat', sans-serif;
+:root{--color1:#33cc66;--color2:#23334f;--color3:#fff;--hover-color:#FFA000;--headings-color:#4f5d75;--main-font:'Montserrat', sans-serif;
 }
 body{
     font-family: var(--main-font);
+    color: var(--color2)
 
 }
 #home{
@@ -134,6 +135,8 @@ div#contactUs img {
 .page{display: none;min-height: 100vh;}
 #home{display: block}
 .aff{background:url(../imgs/aff.png);background-size: cover;background-position: center;}
+
+.comp{background:url(../imgs/comp.png);background-size: cover;background-position: center;}
 .adv {background:url(../imgs/adv.png);background-size: cover;background-position: center;}
 .cont-box {
     margin-top: 241px;
@@ -156,7 +159,7 @@ div#contactUs img {
 
 .cont-box .icon {
     float: left;
-    height: 170px;
+    height: 180px;
 }
 
 .cont-box h2.title {
@@ -177,4 +180,12 @@ div#contactUs img {
     line-height: 20px;
     margin-bottom: 0;
     font-weight: bold;
+}
+.cont-box .qoute {
+    float: left;
+    padding-left: 29px;
+    font-weight: bold;
+    font-size: 24px;
+    width: 70%;
+    font-family: 'Lora', serif;
 }

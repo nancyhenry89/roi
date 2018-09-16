@@ -6,4 +6,8 @@ $('document').ready(function(){
         $('nav a').removeClass('active');
         $(this).addClass('active');
     });
+    $('#slide').click(function(){
+        var current=$('nav a.active');
+        current.parents('li').next('li').find('a').click();
+    });
 });

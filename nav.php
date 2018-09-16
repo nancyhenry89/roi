@@ -11,10 +11,10 @@
             <a href="#" content="affiliates">Affiliates</a>
         </li>
         <li>
-            <a href="#">Advertisers</a> 
+            <a href="#" content="advertisers">Advertisers</a> 
         </li>
         <li>
-            <a href="#">Company</a>  
+            <a href="#" content="company">Company</a>  
         </li>
     </ul>
     <div id="contactUs">

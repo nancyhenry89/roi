@@ -134,6 +134,7 @@ div#contactUs img {
 .page{display: none;min-height: 100vh;}
 #home{display: block}
 .aff{background:url(../imgs/aff.png);background-size: cover;background-position: center;}
+.adv {background:url(../imgs/adv.png);background-size: cover;background-position: center;}
 .cont-box {
     margin-top: 241px;
     width: 77%;
@@ -143,6 +144,10 @@ div#contactUs img {
     padding: 60px 30px;
     float: left;
     height: auto;
+}
+
+.adv .cont-box {
+    float: right;
 }
 
 .cont-box .icon img {

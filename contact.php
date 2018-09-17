@@ -1,11 +1,11 @@
 <div class="fluid-container slide contact" data="contact" >
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
-                <h2>contact us.</h2>
+            <div class="col-md-4">
+                <h2>Contact us.</h2>
                 <div class="contact-slogan">DON’T BE SHY - LET'S TALK</div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="contact-form">
                     <form>
                         <div class="row">

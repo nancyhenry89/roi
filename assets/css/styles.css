@@ -189,3 +189,213 @@ div#contactUs img {
     width: 70%;
     font-family: 'Lora', serif;
 }
+.contact {
+    float: left;
+    width: calc(100% - 75px);
+    margin-left: 75px;
+    background: #32cc66f0;
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    height: 219px;
+    display: none;
+}
+
+.contact h2 {
+    font-size: 52px;
+    margin-top: 67px;
+    margin-bottom: 5px;
+}
+
+.contact-slogan {
+    font-size: 21px;
+    padding-left: 2px;
+}
+
+.contact-form {
+    height: 100%;
+    padding: 25px 100px;
+}
+.field input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    height: 40px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+textarea {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 60px;
+}
+
+.field {
+    margin-bottom: 17px;
+}
+
+.radio-label {
+    float: left;
+    margin-right: 20px;
+}
+
+label.radio-inline input {
+    visibility: hidden;
+}
+
+label.radio-inline {
+    height: 30px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 9px;
+    line-height: 11px;
+}
+
+button.btn.btn-primary {
+    width: 100%;
+    background: #26ab55;
+    border: 0;
+    border-radius: 0;
+    margin-top: 13px;
+}
+.contact .col-md-8 {
+    box-shadow: -14px -3px 24px 0px #26ab55;
+}
+.popup-cont {
+    width: 40%;
+    margin: auto;
+    background: var(--color1);
+    color: #fff;
+    height: auto;
+}
+
+.fluid-container.popup.signup {
+    background: rgba(0,0,0,0.8);
+    z-index: 99;
+    position: relative;
+    width: calc(100% - 75px);
+    margin-left: 75px;
+    min-height: 100vh;
+    position: absolute;
+    display: none;
+}
+
+.popup-cont h3.title {
+    text-shadow: 2px 3px 16px #232222e8;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 35px 29px;
+    background: #2a994f;
+    box-shadow: inset 0px 129px 34px 10px #26ab55;
+    margin-bottom: 0;
+}
+
+
+
+.popup-cont>div 
+{padding: 10px 50px;float: left;width: 100%;background: var(--color1);}
+
+div#step2 {
+    display: none;
+}
+.popup-detail {
+    width: 40%;
+    margin: auto;
+    color: #fff;
+}
+
+.step-label>div:last-of-type {
+    display: none;
+}
+
+.step-number>span {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: #baccc0;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    line-height: 27px;
+}
+
+.step-number>span.active {
+    background: #26ab55;
+}
+.checkbox-list {
+    width: 50%;
+    float: left;
+}
+.checkbox-list .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: -6px;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-list .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-list .container input:checked ~ .checkmark {
+    background-color: #1f7158;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-list .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-list .container .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 3px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkbox-list .container{position:relative}
+
+
+
+.checkboxes {
+    float: left;
+    width: 100%;
+}

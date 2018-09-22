@@ -27,4 +27,13 @@ $('document').ready(function(){
         $('.step-label>div:last-of-type').show();
 
     });
+    $('.popup-close').click(function(){
+        $(this).parents('.signup').fadeOut();
+    });
+
+    //mobile
+    $('#nav').click(function(){
+        $('.mobile-nav').show();
+       // $('.contact').show();
+        });
 });

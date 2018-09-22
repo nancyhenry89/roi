@@ -1,4 +1,5 @@
 <div class="fluid-container popup signup" data="signup" >
+    <div class="popup-close">x</div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
